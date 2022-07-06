@@ -9,10 +9,10 @@ eureka:
 spring:
   cloud:
     config:
+      uri: http://localhost:8096
       discovery:
         enabled: true
       name: config-service
-      enabled: false
   application:
     name: limits-service
 limit:
