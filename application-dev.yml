@@ -15,5 +15,7 @@ spring:
       enabled: false
   application:
     name: limits-service
-  profiles:
-    active: dev
+min:
+  value: 10
+max:
+  value: 5000
