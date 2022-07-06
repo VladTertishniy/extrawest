@@ -15,7 +15,7 @@ spring:
       enabled: false
   application:
     name: limits-service
-min:
-  value: 10
-max:
-  value: 5000
+limit:
+  min: 10
+limit:
+  max: 5000
